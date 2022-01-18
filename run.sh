@@ -1,1 +1,1 @@
-docker run --rm -it -v $PWD:~/workspace ruihirano/rllib:latest bash
+docker run --rm -it -v $PWD:/home/ray/workspace -v $PWD/ray_results:/home/ray/ray_results2 ruihirano/rllib:latest bash
